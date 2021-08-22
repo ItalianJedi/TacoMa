@@ -1,0 +1,109 @@
+body {
+  background-color: rgb(39, 37, 37);
+  font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  text-decoration: bold;
+  text-shadow: 3px 3px 3px black;
+}
+
+h2 {
+  text-decoration: bold;
+ 
+}
+
+.big-image {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  background-image: url('img/bigtaco.jpg');
+  opacity: 0.7;
+  
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+
+.intro-menu {
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+.categories {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.card-img-top:hover {
+  opacity: 0.9;
+  width: 21rem;
+}
+
+.categories .card-title {
+  font-size: 30px;
+}
+
+.card-img-top {
+  opacity: 0.7;
+}
+
+
+.location {
+  background-color: white;
+  position: relative;
+  left: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.intro-location {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contact {
+  background-color:rgb(39, 37, 37);
+  position: absolute;
+  left: 0;
+  right: 0;
+
+}
+
+.contact {
+  position: relative;
+  box-sizing: border-box;
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+
+.contact h2 {
+  color: white;
+  
+}
+
+.contact p {
+  color: white;
+}
+
+.contact img {
+  width: 300px;
+  height: 300px;
+}
+
+.container-fluid {
+  padding-right:0;
+  padding-left:0;
+  margin-right:auto;
+  margin-left:auto
+}
+
